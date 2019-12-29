@@ -9,10 +9,8 @@ C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\ne
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\WatchGuardMarsRover.pdb
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\WatchGuardMarsRover.Views.dll
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\WatchGuardMarsRover.Views.pdb
-C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.csprojAssemblyReference.cache
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\staticwebassets\WatchGuardMarsRover.StaticWebAssets.Manifest.cache
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\staticwebassets\WatchGuardMarsRover.StaticWebAssets.xml
-C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.RazorAssemblyInfo.cache
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.RazorAssemblyInfo.cs
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.AssemblyInfoInputs.cache
@@ -33,3 +31,10 @@ C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\ne
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.dll
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.pdb
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.csproj.CopyComplete
+C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.MvcApplicationPartsAssemblyInfo.cache

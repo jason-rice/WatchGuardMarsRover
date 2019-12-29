@@ -1,8 +1,42 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+
+
+    <button onclick="GetImagesByDate()">Get Images</button>
+    <input type="date" id="DateChosen" />
+
+    <script>
+        function GetImagesByDate() {
+            var dateChosen = $("#DateChosen").val();
+            $.ajax({
+                type: "Get",
+                dataType: "json",
+                url: "/Home/GetImagesByDate",
+                data: {
+                    dateChosen: dateChosen
+                },
+                success: function (data) {
+                    alert("success");
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    alert("fail");
+                }
+            });
+        }
+    </script>
+</body>
+</html>
+
