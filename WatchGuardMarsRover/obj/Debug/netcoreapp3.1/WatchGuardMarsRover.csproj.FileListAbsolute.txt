@@ -38,3 +38,4 @@ C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\ne
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jason\source\repos\WatchGuardMarsRover\WatchGuardMarsRover\obj\Debug\netcoreapp3.1\WatchGuardMarsRover.csprojAssemblyReference.cache

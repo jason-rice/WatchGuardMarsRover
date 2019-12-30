@@ -12,13 +12,55 @@
     <div class="text-center">
         <h1 class="display-4">Welcome</h1>
         <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <h2>Built by Jason Rice</h2>
     </div>
 
 
-    <button onclick="GetImagesByDate()">Get Images</button>
-    <input type="date" id="DateChosen" />
+    <div class="container" style="margin-bottom:20px;">
+        <div style="width:45%;display:inline-block;">
+            <img src="~/MarsRover.png" style="width:100%;" />
+        </div>
+        <div style="width:45%;display:inline-block;">
+            <p>Select a date to retrieve images for that earth date, or</p>
+            <p>leave the date blank and retrieve all images from dates.txt local file</p>
+            <button onclick="GetImagesByDate()">Get Images</button>
+            <input type="date" id="DateChosen" />
+        </div>
+    </div>
+
+
+    <div id="uploadedImages" class="img-thumbnail">
+
+    </div>
 
     <script>
+        $(document).ready(function () {
+            var dateChosen = $("#DateChosen").val();
+            $.ajax({
+                type: "Get",
+                dataType: "json",
+                url: "/Home/GetFirstFifteenImagesByDate",
+                data: {
+                    dateChosen: dateChosen
+                },
+                success: function (data) {
+                    if (data != null) {
+                        var counter = 0;
+                        var imageCount = data.length;
+                        while (counter < imageCount) {
+                            var imgToAppend = '<img src="/Images/' + data[counter].imageName + '" class="img-responsive thumbnail" style="width:80px;" />'
+                            $("#uploadedImages").append(imgToAppend);
+                            counter++;
+                        }
+                    }
+                    alert("success");
+                },
+                error: function () {
+                    alert("fail");
+                }
+            });
+        });
+
         function GetImagesByDate() {
             var dateChosen = $("#DateChosen").val();
             $.ajax({
@@ -29,9 +71,18 @@
                     dateChosen: dateChosen
                 },
                 success: function (data) {
+                    if (data != null) {
+                        var counter = 0;
+                        var imageCount = data.length;
+                        while (counter < imageCount) {
+                            var imgToAppend = '<img src="/Images/' + data[counter].imageName + '" class="img-responsive thumbnail" style="width:80px;" />'
+                            $("#uploadedImages").append(imgToAppend);
+                            counter++;
+                        }
+                    }
                     alert("success");
                 },
-                error: function (xhr, ajaxOptions, thrownError) {
+                error: function () {
                     alert("fail");
                 }
             });
